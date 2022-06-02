@@ -10,10 +10,9 @@ function App() {
       <Nav />
       <Banner />
       <Clients />
-      <div className="clearfix"></div>
-      <div className="row"></div>
+      <div className="row mt-5"></div>
       <Benefits />
-      <div className="clearfix"></div>
+      <div className="row"></div>
     </>
   );
 }
