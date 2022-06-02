@@ -11,6 +11,7 @@ function App() {
       <Banner />
       <Clients />
       <div className="clearfix"></div>
+      <div className="row"></div>
       <Benefits />
       <div className="clearfix"></div>
     </>
