@@ -51,7 +51,7 @@ const Banner = () => {
                 className="banner-mentees-images"
                 id="mentees-images"
               ></span>
-              <span className="banner-mentees">162,891 mentees</span>
+              <span className="banner-mentees">162,891+ mentees</span>
             </div>
           </div>
           <div className="col-md-5 no-mobile">
