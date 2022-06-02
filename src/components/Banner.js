@@ -43,14 +43,10 @@ const Banner = () => {
               needed and match the creative industry
             </p>
 
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-between",
-                alignItems: "center"
-              }}
-            >
-              <a className="banner-btn">Browse Class</a>
+            <div className="banner-btn-div">
+              <a href="#" className="banner-btn">
+                Browse Class
+              </a>
               <span
                 className="banner-mentees-images"
                 id="mentees-images"
@@ -58,8 +54,20 @@ const Banner = () => {
               <span className="banner-mentees">162,891 mentees</span>
             </div>
           </div>
-          <div className="col-md-5">
-            <img src={BannerImg} className="mt-5 img-fluid" />
+          <div className="col-md-5 no-mobile">
+            <div className="img-div-1"></div>
+            <div className="img-div-2"></div>
+            <div className="img-div-3">
+              <img
+                style={{
+                  width: "110%",
+                  height: "110%",
+                  position: "absolute",
+                  bottom: "0%"
+                }}
+                src={BannerImg}
+              />
+            </div>
           </div>
         </div>
       </div>
