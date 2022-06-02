@@ -31,6 +31,13 @@ nav a:hover {
   border-radius: 8px;
   padding: 0.5rem 2em !important;
 }
+.login-btn:hover {
+  border: 1px solid #6e55f2 !important;
+  background-color: #6e55f2;
+  color: #fff !important;
+  border-radius: 8px;
+  padding: 0.5rem 2em !important;
+}
 .nav-link {
   margin: 1em 1.5em;
 }
@@ -131,7 +138,7 @@ nav a:hover {
   filter: grayscale(0%);
   opacity: 1;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .no-mobile {
     display: none;
   }

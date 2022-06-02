@@ -64,7 +64,7 @@ const Nav = () => {
               </li>
               <li className="nav-item">
                 <a className="login-btn nav-link" href="#">
-                  Login
+                  Login <i className="fa fa-sign-in"></i>
                 </a>
               </li>
             </ul>

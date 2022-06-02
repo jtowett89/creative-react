@@ -7,7 +7,7 @@ import Adobe from "../images/adobe.png";
 
 const Clients = () => {
   return (
-    <div className="container mt-5">
+    <div className="container mt-md-5 pt-md-5">
       <div className="client-img-container">
         <img src={Adobe} className="img-fluid client-img" />
       </div>
