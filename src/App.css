@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body,
+html {
+  font-family: "Montserrat", sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+  background-color: #1f1f1f;
+  height: 5em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav a {
+  color: #efefef;
+  font-weight: 600;
+  transition: all 0.5s !important;
+}
+nav a:hover {
+  color: #6e55f2;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.login-btn {
+  border: 1px solid #efefef;
+  border-radius: 8px;
+  padding: 0.5rem 2em !important;
+}
+.nav-link {
+  margin: 1em 1.5em;
+}
+.banner {
+  background-color: #1f1f1f;
+  height: calc(100vh - 5em);
+}
+.banner-heading {
+  color: #efefef;
+  font-size: 4em;
+  font-weight: 700;
+  padding-top: 1.6em;
+}
+.banner-tagline {
+  color: #7b7b7b;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 2em;
+}
+.banner-btn {
+  color: #efefef !important;
+  border-radius: 8px;
+  background-color: #6e55f2;
+  border: 2px solid #6e55f2;
+  transition: all 0.5s !important;
+  padding: 1em 2em;
+  font-weight: 600;
+}
+.banner-btn:hover {
+  color: #6e55f2 !important;
+  background-color: #efefef;
+  border: 2px solid #6e55f2;
+}
+.banner-mentees-images {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.banner-mentees-images img {
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  border: 2px solid #efefef;
+  margin-left: -1em;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-mentees {
+  color: #7b7b7b;
+  width: 40%;
+  font-weight: 600;
+  margin-left: -3em;
 }
