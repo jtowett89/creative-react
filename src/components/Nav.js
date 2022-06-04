@@ -5,7 +5,7 @@ const Nav = () => {
     <>
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             crea.
           </a>
           <button
@@ -24,10 +24,9 @@ const Nav = () => {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="/"
                   id="navbarDropdownMenuLink"
                   data-toggle="dropdown"
-                  aria-haspopup="true"
                   aria-expanded="false"
                 >
                   Our Class
@@ -36,34 +35,34 @@ const Nav = () => {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/">
                     Class A
                   </a>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/">
                     Class B
                   </a>
-                  <a className="dropdown-item" href="#">
+                  <a className="dropdown-item" href="/">
                     Class C
                   </a>
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   Showcase
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   FAQ
                 </a>
               </li>
               <li className="nav-item">
-                <a className="login-btn nav-link" href="#">
+                <a className="login-btn nav-link" href="/">
                   Login <i className="fa fa-sign-in"></i>
                 </a>
               </li>

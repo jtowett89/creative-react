@@ -31,6 +31,7 @@ nav a:hover {
 .navbar-brand {
   font-weight: 700;
   font-size: 1.8rem;
+  color: #fff !important;
 }
 .login-btn {
   border: 2px solid #efefef;

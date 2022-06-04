@@ -13,7 +13,7 @@ const Banner = () => {
       let userUrl =
         menteePics[Math.floor(Math.random() * menteePics.length - 1)]
           .avatar_url;
-      imageString += `<img style="z-index:${zIndex}" src="${userUrl}" />`;
+      imageString += `<img alt="" style="z-index:${zIndex}" src="${userUrl}" />`;
       zIndex++;
     }
     document.getElementById("mentees-images").innerHTML = imageString;
@@ -44,7 +44,7 @@ const Banner = () => {
             </p>
 
             <div className="banner-btn-div">
-              <a href="#" className="banner-btn">
+              <a href="/" className="banner-btn">
                 Browse Class
               </a>
               <span
@@ -66,6 +66,7 @@ const Banner = () => {
                   bottom: "0%"
                 }}
                 src={BannerImg}
+                alt=""
               />
             </div>
           </div>
