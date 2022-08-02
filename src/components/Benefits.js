@@ -2,7 +2,7 @@ import { React } from "react";
 
 const Benefits = () => {
   return (
-    <section className="benefits">
+    <section className="benefits mt-5">
       <div className="container">
         <div className="row">
           <div className="col-md-6">
