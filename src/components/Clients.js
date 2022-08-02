@@ -7,25 +7,28 @@ import Adobe from "../images/adobe.png";
 
 const Clients = () => {
   return (
-    <section className="clients">
-      <div className="container mt-md-5 pt-md-5">
-        <div className="client-img-container">
-          <img src={Adobe} className="img-fluid client-img" />
+    <>
+      <section className="clients">
+        <div className="container mt-md-5 pt-md-5">
+          <div className="client-img-container">
+            <img src={Adobe} className="img-fluid client-img" />
+          </div>
+          <div className="client-img-container">
+            <img src={Vistaprint} className="img-fluid client-img" />
+          </div>
+          <div className="client-img-container">
+            <img src={Tokopedia} className="img-fluid client-img" />
+          </div>
+          <div className="client-img-container left-margin">
+            <img src={Huawei} className="img-fluid client-img" />
+          </div>
+          <div className="client-img-container">
+            <img src={Google} className="img-fluid client-img" />
+          </div>
         </div>
-        <div className="client-img-container">
-          <img src={Vistaprint} className="img-fluid client-img" />
-        </div>
-        <div className="client-img-container">
-          <img src={Tokopedia} className="img-fluid client-img" />
-        </div>
-        <div className="client-img-container left-margin">
-          <img src={Huawei} className="img-fluid client-img" />
-        </div>
-        <div className="client-img-container">
-          <img src={Google} className="img-fluid client-img" />
-        </div>
-      </div>
-    </section>
+      </section>
+      <div className="clearfix"></div>
+    </>
   );
 };
 export default Clients;
