@@ -67,9 +67,14 @@ const Footer = () => {
           <p className="text-center mt-5 copyright">
             &copy; 2022 Crea Education Team. All Rights Reserved.
             <br />
-            Developed by <a href="https://justice.zerone.co.ke">Justice</a>.
-            Designed by{" "}
-            <a href="https://www.instagram.com/rezha.aaron/">Rehza</a>
+            Developed by{" "}
+            <a target="_blank" href="https://justice.zerone.co.ke">
+              Justice
+            </a>
+            . Designed by{" "}
+            <a target="_blank" href="https://www.instagram.com/rezha.aaron/">
+              Rehza
+            </a>
           </p>
         </div>
       </div>
