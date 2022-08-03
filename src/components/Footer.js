@@ -73,7 +73,7 @@ const Footer = () => {
             </a>
             . Designed by{" "}
             <a target="_blank" href="https://www.instagram.com/rezha.aaron/">
-              Rehza
+              Rezha
             </a>
           </p>
         </div>
