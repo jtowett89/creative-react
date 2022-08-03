@@ -4,7 +4,7 @@ const Footer = () => {
     <section className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-lg-4 col-md-4">
             <a className="navbar-brand pt-0" href="/">
               crea.
             </a>
@@ -12,8 +12,7 @@ const Footer = () => {
               Online education platform for creative people around the world
             </p>
           </div>
-          <div className="col-md-1"></div>
-          <div className="col-md-2 mt-2">
+          <div className="col-md-2 col-lg-2 offset-lg-1 mt-2">
             <h2 className="mb-2">Company</h2>
             <ul>
               <li>
@@ -30,7 +29,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-2 mt-2">
+          <div className="col-md-3 col-lg-2 mt-2">
             <h2 className="mb-2">Follow Us</h2>
             <ul>
               <li>
@@ -47,7 +46,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-3 mt-2">
+          <div className="col-md-3 col-lg-3 mt-2">
             <h2 className="mb-2">More</h2>
             <ul>
               <li>

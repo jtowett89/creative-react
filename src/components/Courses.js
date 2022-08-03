@@ -12,7 +12,7 @@ const Courses = () => {
         </h1>
         <div className="container">
           <div className="row">
-            <div className="col-md-3 mb-5 mt-3">
+            <div className="col-md-6 col-lg-3 mb-5 mt-3">
               <div className="my-card">
                 <div className="course-img-container">
                   <div className="course-img-1 mb-2"></div>
@@ -30,7 +30,7 @@ const Courses = () => {
                 </span>
               </div>
             </div>
-            <div className="col-md-3 mb-5 mt-3">
+            <div className="col-md-6 col-lg-3 mb-5 mt-3">
               <div className="my-card">
                 <div className="course-img-container">
                   <div className="course-img-2 mb-2"></div>
@@ -47,7 +47,7 @@ const Courses = () => {
                 </span>
               </div>
             </div>
-            <div className="col-md-3 mb-5 mt-3">
+            <div className="col-md-6 col-lg-3 mb-5 mt-3">
               <div className="my-card">
                 <div className="course-img-container">
                   <div className="course-img-3 mb-2"></div>
@@ -64,7 +64,7 @@ const Courses = () => {
                 </span>
               </div>
             </div>
-            <div className="col-md-3 mb-5 mt-3">
+            <div className="col-md-6 col-lg-3 mb-5 mt-3">
               <div className="my-card">
                 <div className="course-img-container">
                   <div className="course-img-4 mb-2"></div>

@@ -10,7 +10,7 @@ const Work = () => {
         </h1>
         <div className="container">
           <div className="row">
-            <div className="col-md-4 mb-5 mt-3">
+            <div className="col-lg-4 col-md-6 mb-5 mt-3">
               <div className="my-card">
                 <div className="work-img-container">
                   <div className="work-img-1 mb-2"></div>
@@ -19,7 +19,7 @@ const Work = () => {
                 <p className="mentee-role">3D Character Design</p>
               </div>
             </div>
-            <div className="col-md-4 mb-5 mt-3">
+            <div className="col-lg-4 col-md-6 mb-5 mt-3">
               <div className="my-card">
                 <div className="work-img-container">
                   <div className="work-img-2 mb-2"></div>
@@ -28,7 +28,7 @@ const Work = () => {
                 <p className="mentee-role">Photography for Beginner</p>
               </div>
             </div>
-            <div className="col-md-4 mb-5 mt-3">
+            <div className="col-lg-4 col-md-6 mb-5 mt-3">
               <div className="my-card">
                 <div className="work-img-container">
                   <div className="work-img-3 mb-2"></div>
