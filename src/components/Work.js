@@ -12,21 +12,27 @@ const Work = () => {
           <div className="row">
             <div className="col-md-4 mb-5 mt-3">
               <div className="my-card">
-                <div className="work-img-1 mb-2"></div>
+                <div className="work-img-container">
+                  <div className="work-img-1 mb-2"></div>
+                </div>
                 <h1 className="work-heading">Anastacia Newmann</h1>
                 <p className="mentee-role">3D Character Design</p>
               </div>
             </div>
             <div className="col-md-4 mb-5 mt-3">
               <div className="my-card">
-                <div className="work-img-2 mb-2"></div>
+                <div className="work-img-container">
+                  <div className="work-img-2 mb-2"></div>
+                </div>
                 <h1 className="work-heading">Silver Manch</h1>
                 <p className="mentee-role">Photography for Beginner</p>
               </div>
             </div>
             <div className="col-md-4 mb-5 mt-3">
               <div className="my-card">
-                <div className="work-img-3 mb-2"></div>
+                <div className="work-img-container">
+                  <div className="work-img-3 mb-2"></div>
+                </div>
                 <h1 className="work-heading">Andrew Garic</h1>
                 <p className="mentee-role">Digital Image using Photoshop</p>
               </div>

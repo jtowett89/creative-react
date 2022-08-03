@@ -14,7 +14,10 @@ const Courses = () => {
           <div className="row">
             <div className="col-md-3 mb-5 mt-3">
               <div className="my-card">
-                <div className="course-img-1 mb-2"></div>
+                <div className="course-img-container">
+                  <div className="course-img-1 mb-2"></div>
+                </div>
+
                 <h1 className="course-heading">
                   Digital Imaging using Photoshop
                 </h1>
@@ -29,7 +32,9 @@ const Courses = () => {
             </div>
             <div className="col-md-3 mb-5 mt-3">
               <div className="my-card">
-                <div className="course-img-2 mb-2"></div>
+                <div className="course-img-container">
+                  <div className="course-img-2 mb-2"></div>
+                </div>
                 <h1 className="course-heading">
                   Advanced Prototyping in Figma
                 </h1>
@@ -44,7 +49,9 @@ const Courses = () => {
             </div>
             <div className="col-md-3 mb-5 mt-3">
               <div className="my-card">
-                <div className="course-img-3 mb-2"></div>
+                <div className="course-img-container">
+                  <div className="course-img-3 mb-2"></div>
+                </div>
                 <h1 className="course-heading">
                   User Interface Design for Developer
                 </h1>
@@ -59,7 +66,9 @@ const Courses = () => {
             </div>
             <div className="col-md-3 mb-5 mt-3">
               <div className="my-card">
-                <div className="course-img-4 mb-2"></div>
+                <div className="course-img-container">
+                  <div className="course-img-4 mb-2"></div>
+                </div>
                 <h1 className="course-heading">
                   Flat Illustartion for Beginners
                 </h1>

@@ -197,6 +197,18 @@ nav a:hover {
   color: #1f1f1f;
   font-size: 2.5em;
 }
+.course-img-container {
+  width: 100%;
+  height: 20em;
+  overflow: hidden;
+  border-radius: 2em;
+}
+.work-img-container {
+  width: 100%;
+  height: 20em;
+  overflow: hidden;
+  border-radius: 2em;
+}
 .course-img-1 {
   width: 100%;
   height: 20em;
@@ -205,11 +217,12 @@ nav a:hover {
   background-repeat: no-repeat !important;
   background-position: center !important;
   border-radius: 2em;
-  transition: all 0.5s !important;
+  transition: all 0.7s !important;
 }
 .course-img-1:hover {
   background: linear-gradient(rgba(230, 96, 147, 0.6), rgba(230, 96, 147, 0.6)),
     url("./images/course1.jpg");
+  transform: scale(1.3);
 }
 .course-img-2 {
   width: 100%;
@@ -224,6 +237,7 @@ nav a:hover {
 .course-img-2:hover {
   background: linear-gradient(rgba(230, 96, 147, 0.6), rgba(230, 96, 147, 0.6)),
     url("./images/course2.jpg");
+  transform: scale(1.3);
 }
 .course-img-3 {
   width: 100%;
@@ -238,6 +252,7 @@ nav a:hover {
 .course-img-3:hover {
   background: linear-gradient(rgba(230, 96, 147, 0.6), rgba(230, 96, 147, 0.6)),
     url("./images/course3.jpg");
+  transform: scale(1.3);
 }
 .course-img-4 {
   width: 100%;
@@ -252,6 +267,7 @@ nav a:hover {
 .course-img-4:hover {
   background: linear-gradient(rgba(230, 96, 147, 0.6), rgba(230, 96, 147, 0.6)),
     url("./images/course4.jpg");
+  transform: scale(1.3);
 }
 .work-img-1 {
   width: 100%;
@@ -266,6 +282,7 @@ nav a:hover {
 .work-img-1:hover {
   background: linear-gradient(rgba(230, 96, 147, 0.6), rgba(230, 96, 147, 0.6)),
     url("./images/work1.jpg");
+  transform: scale(1.3);
 }
 .work-img-2 {
   width: 100%;
@@ -280,6 +297,7 @@ nav a:hover {
 .work-img-2:hover {
   background: linear-gradient(rgba(230, 96, 147, 0.6), rgba(230, 96, 147, 0.6)),
     url("./images/work2.jpg");
+  transform: scale(1.3);
 }
 .work-img-3 {
   width: 100%;
@@ -294,6 +312,7 @@ nav a:hover {
 .work-img-3:hover {
   background: linear-gradient(rgba(230, 96, 147, 0.6), rgba(230, 96, 147, 0.6)),
     url("./images/work3.jpg");
+  transform: scale(1.3);
 }
 .course-heading {
   font-size: 21px;
@@ -568,6 +587,7 @@ nav a:hover {
   }
   .course-img-1:hover {
     background: url("./images/course1.jpg");
+    transform: scale(1.3);
   }
   .course-img-2 {
     width: 100%;
@@ -581,6 +601,7 @@ nav a:hover {
   }
   .course-img-2:hover {
     background: url("./images/course2.jpg");
+    transform: scale(1.3);
   }
   .course-img-3 {
     width: 100%;
@@ -594,6 +615,7 @@ nav a:hover {
   }
   .course-img-3:hover {
     background: url("./images/course3.jpg");
+    transform: scale(1.3);
   }
   .course-img-4 {
     width: 100%;
@@ -607,6 +629,7 @@ nav a:hover {
   }
   .course-img-4:hover {
     background: url("./images/course4.jpg");
+    transform: scale(1.3);
   }
   .work-img-1 {
     width: 100%;
@@ -620,6 +643,7 @@ nav a:hover {
   }
   .work-img-1:hover {
     background: url("./images/work1.jpg");
+    transform: scale(1.3);
   }
   .work-img-2 {
     width: 100%;
@@ -633,6 +657,7 @@ nav a:hover {
   }
   .work-img-2:hover {
     background: url("./images/work2.jpg");
+    transform: scale(1.3);
   }
   .work-img-3 {
     width: 100%;
@@ -646,6 +671,7 @@ nav a:hover {
   }
   .work-img-3:hover {
     background: url("./images/work3.jpg");
+    transform: scale(1.3);
   }
   .btn-left {
     text-decoration: none !important;
