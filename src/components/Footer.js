@@ -67,7 +67,7 @@ const Footer = () => {
             &copy; 2022 Crea Education Team. All Rights Reserved.
             <br />
             Developed by{" "}
-            <a target="_blank" href="https://justice.zerone.co.ke">
+            <a target="_blank" href="https://justicetowett.netlify.app">
               Justice
             </a>
             . Designed by{" "}

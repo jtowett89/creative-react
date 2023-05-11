@@ -29,7 +29,7 @@ const Banner = () => {
 
   menteePics.length > 5 && !done && populate();
 
-  useEffect(fetchPics, []);
+  useEffect(() => fetchPics(), []);
   return (
     <section className="banner">
       <div className="container">
